@@ -1,90 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>SISEC Sophia University</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="上智大学公認最大で最も歴史の長い国際交流系サークルThis is an official account of SISEC(Sophia International Student Exchange Council)">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
+        <link rel="stylesheet" href="css/Final_Ex.css">
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <link href="css/vegas.min.css" rel="stylesheet">
+        <script src="js/vegas.min.js"></script>
+        <script src="js/Slideshow.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/slick.css"/>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/Photos.js"></script>
+    </head>
+    <body class="home">
+        <!--ボタン-->
+        <button class="header_hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!--ボタンで表示-->
+        <nav class="header_nav nav" id="js-nav">
+            <div class="nav-items">
+                <img src="images/SISEC.jpg" width="150px" height="150px">
+                <ul class="nav-items-item">
+                    <li><a href="Final_Ex.html">Home<span>ホーム</span></a></li>
+                    <li><a href="about.html">About<span>サークルについて</span></a></li>
+                    <li><a href="members.html">Members<span>幹部紹介</span></a></li>
+                    <li><a href="contact.html">Contact<span>お問い合わせ</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--ボタンのjs-->
+        <script src="js/menuOpenClose.js"></script>
+        <header name="#top">
+            <div class="slideshow">
+                <h3>
+                    <p>SISEC</p>
+                    <p>SOPHIA UNIVERSITY</p>
+                    <p>上智大学公認最大!!</p>
+                    <p>最も歴史の長い国際交流系サークル</p>
+                </h3>
+            </div>
+            <div class="LogoAnimation"><video src="video/Logo_Animation.mp4" width="100%" autoplay muted></video></div>
+        </header>
+        <link href="css/vegas.min.css" rel="stylesheet">
+        <script src="js/vegas.min.js"></script>
+        <script src="js/Slideshow.js"></script>
+        <div class="container">
+            <main>
+                <section>
+                    <h2>Annual Activity<span>年間活動</span></h2>
+                    <div class="activity">
+                        <img src="images/Barbecue.jpg" width="100%" alt="WelcomeParty">
+                        <div class="text">
+                            <h4>新歓(WelcomeParty)</h4>
+                            <ul>
+                                <li>クラブ(池袋)<span>参加者がおよそ100人集まりました！</span></li>
+                                <li>クラブ(六本木)<span>当日雨が降ってしまいましたが、およそ50人が集まりました！</span></li>
+                                <li>ピクニック<span>代々木公園で軽食を食べながら国際交流しました！幹部と仲良くなれるチャンスです！</span></li>
+                                <li>バーベキュー<span>夏本番！ということで豊洲でバーベキューをしました！先着順に56人まで参加できます！</span></li>
+                                <li>タコパ<span>留学生からのリクエストをいただき開催しました！</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <img src="images/SummerCamp.jpg" width="100%" alt="SummerCamp">
+                        <div class="text">
+                            <h4>夏合宿(SummerCamp)2022</h4>
+                            <ul>
+                                <li>場所 : 新潟<span>自然に囲まれた場所で夏合宿を開催しました！</span></li>
+                                <li>日程 : 8/4,5<span>昼は体育館を貸し切ってバスケやドッジボール！夜は宿を貸し切って肝試し！</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <img src="images/ChristmasParty.jpg" width="100%" alt="ChristmasParty">
+                        <div class="text">
+                            <h4>クリパ(ChristmasParty)</h4>
+                        </div>
+                    </div>
+                    <div class="activity">
+                        <img src="images/GeneralMeeting.jpg" width="100%" alt="GeneralMeeting">
+                        <div class="text">
+                            <h4>総会(GeneralMeeting)</h4>
+                        </div>
+                </section>
+                <section>
+                    <h2>Best Photo's<span>今年の"いい写"集</span></h2>
+                    <div class="slider-wrap">
+                        <ul class="slider" id="js-slider">
+                            <li><img src="images/SummerCamp.jpg"></li>
+                            <li><img src="images/GeneralMeeting.jpg"></li>
+                            <li><img src="images/ChristmasParty.jpg"></li>
+                            <li><img src="images/Barbecue.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="dots"></div>
+                </section>
+            </main>
+            <footer>
+                <ul class="sns">
+                    <li><a href="https://twitter.com/sisec_official"><img src="SNS/Twitter social icons - rounded square - blue.png" width="40px" height="40px" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/sisec.sophia/"><img src="SNS/Instagram_Glyph_Gradient_RGB.png" width="40px" height="40px" alt="Instagram"></a></li>
+                </ul>
+                <a href="index.html"><p>SISEC - SOPHIA</p></a>
+                <div class="right"><a href="#top">↑</a>上に戻る</div>
+            </footer>
         </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+    </body>
 </html>
