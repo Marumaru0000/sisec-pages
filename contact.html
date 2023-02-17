@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>SISEC Sophia University</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="上智大学公認最大で最も歴史の長い国際交流系サークルThis is an official account of SISEC(Sophia International Student Exchange Council)">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
+        <script src="js/jquery-3.6.3.min.js"></script>
+    </head>
+    <body class="home">
+        <!--ボタン-->
+        <button class="header_hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!--ボタンで表示-->
+        <nav class="header_nav nav" id="js-nav">
+            <div class="nav-items">
+                <img src="images/SISEC.jpg" width="150px" height="150px">
+                <ul class="nav-items-item">
+                    <li><a href="index.html">Home<span>ホーム</span></a></li>
+                    <li><a href="about.html">About<span>サークルについて</span></a></li>
+                    <li><a href="members.html">Members<span>幹部紹介</span></a></li>
+                    <li><a href="contact.html">Contact<span>お問い合わせ</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--ボタンのjs-->
+        <script src="js/menuOpenClose.js"></script>
+        <div class="container">
+            <header name="#top">
+                <h1 class="logo"><a href="index.html"><img src="images/SISEC.jpg" width="130px" height="130px" alt="SISEC - Sophia"></a></h1>
+            </header>
+            <main>
+                <h2>Contact<span>お問い合わせ</span></h2>
+                <form action="mailto: k-maruyama-5x3@eagle.sophia.ac.jp" method="post"><!--action="mailto:メアド" or URL-->
+                    <fieldset>
+                        <legend>メールでのお問い合わせ</legend>
+                        <div class="form">
+                            <div class="item">
+                                <label for="name" class="label">名前 : </label>
+                                <input type="text" name="name" id="name" class="inputs"> <!--labelとidで連動させる-->
+                            </div>
+                            <div class="item">
+                                <label for="account" class="label">Sophia mail or Instagram account : </label>
+                                <input type="text" name="account" id="account" class="inputs">
+                            </div>
+                            <div class="item">
+                                <p class="label">性別 : </p>
+                                <div class="inputs">
+                                    <input type="radio" name="sex" value="male" id="male"><label for="male">男</label>
+                                    <input type="radio" name="sex" value="female" id="female"><label for="female">女</label>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <label class="label">参加してみたい新歓 : </label>
+                                <div class="inputs">
+                                    <select size="1" name="event" myltipule>
+                                        <option selected value="WelcomeParty">Welcome Party</option>
+                                        <option value="BBQ">BBQ</option>
+                                        <option value="TaKoPa">たこ焼きパーティー</option>
+                                        <option value="Picnic">ピクニック</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <label for="comment" class="label">最後に一言！ : </label>
+                                <textarea name="comment" id="comment" placeholder="一言お願いします！" class="inputs"></textarea>
+                            </div>
+                            <div class="btn-area">
+                                <input type="submit" value="送信"><input type="reset" value="リセット">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </main>
+            <footer>
+                <h4>↓↓↓↓↓dmもお気軽に↓↓↓↓↓</h4>
+                <ul class="sns">
+                    <li><a href="https://twitter.com/sisec_official"><img src="SNS/Twitter social icons - rounded square - blue.png" width="40px" height="40px" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/sisec.sophia/"><img src="SNS/Instagram_Glyph_Gradient_RGB.png" width="40px" height="40px" alt="Instagram"></a></li>
+                </ul>
+                <a href="index.html"><p>SISEC - SOPHIA</p></a>
+                <div class="right"><a href="#top">↑</a>上に戻る</div>
+            </footer>
+        </div>
+    </body>
+</html>
