@@ -197,6 +197,7 @@ main h4{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
     width: 100%;
     height: 100vh;
     background: rgba(250,250,250,0.94);
@@ -268,3 +269,83 @@ footer{
     margin: 0;
 }
 .right{margin-left: 80%;}
+/*----------------------------members-----------------------------*/
+.members{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+	padding: 0 5px;
+}
+.list{
+	width: 45%;
+	margin: 0 1%;
+	margin-bottom: 15px;
+    text-align: center;
+	font: small;
+}
+.list h4 {
+	margin: 10px 0;
+}
+.list p {
+	margin: 0;
+}
+/*----------------------------form--------------------------------*/
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.label{
+    margin-right: 20px;
+    border-left: 3px solid #e0505d;
+    padding-left: 10px;
+    width: 160px;
+}
+.inputs{
+    width: 300px;
+}
+input[type="text"],input[type="email"]{
+    border: 1px solid #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 15px;
+}
+textarea{
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    resize: both;
+}
+input[type="submit"]{
+    background: #e0505c;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+}
+input[type="reset"]{
+    background: #aaa;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+}
