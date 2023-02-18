@@ -217,7 +217,6 @@ main h4{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
 }
 .nav-items img{
     display: block;
@@ -235,9 +234,10 @@ main h4{
 nav li:last-child{
     margin-bottom: 0;
   }
-@media screen and (min-width: 960px) {
-    nav li{
-      margin-bottom: 0;
+/*ipad,スマホ用に*/
+@media screen and (max-width: 800px) {
+    .nav-items img{
+        width: 50%;
     }
 }
 .nav-items span{
