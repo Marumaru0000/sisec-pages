@@ -10,7 +10,7 @@ setTimeout(function () {
 		animation: 'kenburns',	//中央から拡大される
 		delay: 5000,			//1枚ごとの時間
     });
-},5500); //タイミングを調整
+},0); //タイミングを調整
 setTimeout(function(){
     $('.LogoAnimation').fadeOut();
 },5000); //タイミングを調整
