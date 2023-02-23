@@ -36,10 +36,21 @@ header h3{
     height: 100vh;
     animation: blur kenburns ease-out;
 }
+@media screen and (max-width: 700px) {
+    .LogoAnimation{
+        display: none;
+    }
+}
+@media screen and (min-width: 940px) {
+    .LogoAnimation{
+        display: none;
+    }
+}
 .LogoAnimation{
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: 999;
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -99,12 +110,11 @@ main h4{
 }
 /*----------------------BestPhoto's------------------------*/
 .slider-wrap{
-    width: 600px;
+    width: 80%;
     margin: 0 auto;
     position: relative;
 }
 .slider .slick-slide{
-    height: 400px;
     overflow: hidden;
 }
 .slider .slick-slide img{
